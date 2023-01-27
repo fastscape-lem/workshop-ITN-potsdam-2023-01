@@ -1,4 +1,4 @@
-name: workshop-ITN-potsdam-2023-01
+name: workshop-itn-potsdam-2023-01
 channels:
   - conda-forge
 dependencies:

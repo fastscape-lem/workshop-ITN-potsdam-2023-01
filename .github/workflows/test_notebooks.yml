@@ -21,7 +21,7 @@ jobs:
           mamba-version: "*"
           channels: conda-forge,defaults
           channel-priority: true
-          activate-environment: workshop-ITN-potsdam-2023-01
+          activate-environment: workshop-itn-potsdam-2023-01
           environment-file: environment.yml
       - name: Conda info
         shell: bash -l {0}

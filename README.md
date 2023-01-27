@@ -1,5 +1,5 @@
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fastscape-lem/workshop-ITN-potsdam-2023-01/main?urlpath=lab)
-[![Test notebooks](https://github.com/fastscape-lem/workshop-ITN-potsdam-2023-01/workflows/Test%20notebooks/badge.svg)](https://github.com/fastscape-lem/workshop-ITN-potsdam-2023-01/actions)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fastscape-lem/workshop-itn-potsdam-2023-01/main?urlpath=lab)
+[![Test notebooks](https://github.com/fastscape-lem/workshop-itn-potsdam-2023-01/workflows/Test%20notebooks/badge.svg)](https://github.com/fastscape-lem/workshop-itn-potsdam-2023-01/actions)
 
 # Workshop ITN / S2S-Future (Potsdam, 01-2023)
 
@@ -22,7 +22,7 @@ You can run the notebooks in your browser without installing anything thanks to
 "launch binder" badge above and it will launch remotely a new notebook server
 for you:
 
-- [Run on binder](https://mybinder.org/v2/gh/fastscape-lem/workshop-ITN-potsdam-2023-01/main?urlpath=lab)
+- [Run on binder](https://mybinder.org/v2/gh/fastscape-lem/workshop-itn-potsdam-2023-01/main?urlpath=lab)
 
 This service is for demo purpose only, do not rely on it for doing more serious
 work.
@@ -40,7 +40,7 @@ Run the command below in a terminal to first pull the latest image (note: the
 Docker application must be running, you might need to launch it first):
 
 ```bash
-$ docker pull fastscape/workshop-ITN-potsdam-2023-01:latest
+$ docker pull fastscape/workshop-itn-potsdam-2023-01:latest
 ```
 
 Then run the command below to start the Jupyterlab application from the Docker
@@ -56,7 +56,7 @@ $ docker run \
     --name workshop-itn-202301 \
     -p 8888:8888 \
     -v /path/to/local-notebook-folder:/home/jovyan/my-local-folder \
-    fastscape/workshop-ITN-potsdam-2023-01 \
+    fastscape/workshop-itn-potsdam-2023-01 \
     jupyter lab --ip 0.0.0.0
 ```
 
@@ -103,10 +103,10 @@ installed, you can install all the packages required to run the notebooks in a
 new conda environment using the following commands:
 
 ```bash
-$ git clone https://github.com/fastscape-lem/workshop-ITN-potsdam-2023-01
-$ cd workshop-ITN-potsdam-2023-01
+$ git clone https://github.com/fastscape-lem/workshop-itn-potsdam-2023-01
+$ cd workshop-itn-potsdam-2023-01
 $ conda env create -f environment.yml
-$ conda activate workshop-ITN-potsdam-2023-01
+$ conda activate workshop-itn-potsdam-2023-01
 ```
 
 Note: you could use [mamba](https://github.com/mamba-org/mamba) instead of
@@ -128,7 +128,7 @@ A few extra steps are required to prepare your contributions. You can first
 update the conda environment using the following command:
 
 ```bash
-$ conda env update -n workshop-ITN-potsdam-2023-01 --file environment-dev.yml 
+$ conda env update -n workshop-itn-potsdam-2023-01 --file environment-dev.yml 
 ```
 
 This installs a few additional packages like
